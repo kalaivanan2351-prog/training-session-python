@@ -1,0 +1,7 @@
+#Truncate to Two Decimal Places
+num = float(input())
+
+result = int(num * 100) / 100
+
+print(f"{result:.2f}")
+
