@@ -1,0 +1,12 @@
+import math
+
+num = float(input())
+n = int(input())
+base = int(input())
+exponent = int(input())
+
+print(math.floor(num))
+print(math.ceil(num))
+print(round(num))
+print(int(math.sqrt(n)))
+print(int(math.pow(base, exponent)))
